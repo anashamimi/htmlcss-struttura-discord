@@ -16,15 +16,42 @@
     max-width: 1200px;
     margin: 0 auto;
 }
-ul{
-    list-style: none;
-}
-body{
-    background-color: var(--primary-color);
-}
+
 .debug{
     border: 1px solid black;
 }
+
+body{
+    background-color: var(--primary-color);
+}
+
+
+/* header */
+ul{
+    list-style: none;
+}
+
+.nav{
+    color: var(--primary-color);
+    padding: 2rem;
+}
+
+.button{
+    height: 2rem;
+    border-radius: 33%;
+    padding: 5px;
+    align-items: center;
+}
+
+.white-button{
+    background-color: var(--primary-color);
+}
+
+a:link {
+    color : black;
+    text-decoration: none
+   }
+
 .even{
     background-color: var(--bg-section);
     flex-flow: row-reverse wrap;
